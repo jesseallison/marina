@@ -1,0 +1,28 @@
+{
+  "name": "yaml.js",
+  "main": "dist/yaml.js",
+  "version": "0.2.5",
+  "homepage": "https://github.com/jeremyfa/yaml.js",
+  "authors": [
+    "Jeremy Faivre <contact@jeremyfa.com>"
+  ],
+  "description": "Standalone JavaScript YAML 1.2 Parser & Encoder. Works under node.js and all major browsers. Also brings command line YAML/JSON conversion tools.",
+  "keywords": [
+    "yaml"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "0.2.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.5",
+    "commit": "7cd9d6ce5623becdd8d20cd38708652b81666bad"
+  },
+  "_source": "git://github.com/jeremyfa/yaml.js.git",
+  "_target": "^0.2.3",
+  "_originalSource": "yaml.js"
+}

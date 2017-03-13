@@ -1,0 +1,175 @@
+html {
+  height: 100%;
+}
+
+body{
+   padding: 0;
+   margin: 0;
+   height: 100%;
+}
+
+.wrapper {
+
+}
+
+.welcomeText {
+  font-family: 'Vollkorn', serif;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-size: 2.0em;
+  width: 100%;
+  padding-top: 10%;
+
+}
+
+.welcomeText h1{
+  font-size: 2em;
+}
+
+span.underline {
+  /*display: inline;*/
+  /*position: relative;*/
+  /*font: 15px Helvetica, Sans-Serif;*/
+  /*letter-spacing: -.25px;*/
+  /*color: rgba(0,0,255,0.5); */
+}
+
+.myButton {
+  -moz-box-shadow:inset 0px 1px 3px 0px #b2fff5;
+  -webkit-box-shadow:inset 0px 1px 3px 0px #b2fff5;
+  box-shadow:inset 0px 1px 3px 0px #b2fff5;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8fe6cf), color-stop(1, #5bb3b3));
+  background:-moz-linear-gradient(top, #8fe6cf 5%, #5bb3b3 100%);
+  background:-webkit-linear-gradient(top, #8fe6cf 5%, #5bb3b3 100%);
+  background:-o-linear-gradient(top, #8fe6cf 5%, #5bb3b3 100%);
+  background:-ms-linear-gradient(top, #8fe6cf 5%, #5bb3b3 100%);
+  background:linear-gradient(to bottom, #8fe6cf 5%, #5bb3b3 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8fe6cf', endColorstr='#5bb3b3',GradientType=0);
+  background-color:#8fe6cf;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  border:1px solid #5a6964;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  /*font-family:Arial;*/
+  font-size:70px;
+  font-weight:bold;
+  padding:11px 23px;
+  text-decoration:none;
+  text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5bb3b3), color-stop(1, #8fe6cf));
+  background:-moz-linear-gradient(top, #5bb3b3 5%, #8fe6cf 100%);
+  background:-webkit-linear-gradient(top, #5bb3b3 5%, #8fe6cf 100%);
+  background:-o-linear-gradient(top, #5bb3b3 5%, #8fe6cf 100%);
+  background:-ms-linear-gradient(top, #5bb3b3 5%, #8fe6cf 100%);
+  background:linear-gradient(to bottom, #5bb3b3 5%, #8fe6cf 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bb3b3', endColorstr='#8fe6cf',GradientType=0);
+  background-color:#5bb3b3;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+/*span {
+    cursor: pointer;
+}*/
+
+.scoreText {
+	margin: 0;
+  padding-top: 50px;
+  padding-left: 15px;
+  /*font-weight: 4000;*/
+  padding-bottom: 75px;
+	font-family: 'Vollkorn', serif;
+  color: rgba(255, 255, 255, 0.95);
+	font-size: 1.75em;
+	white-space: pre;
+  display: none;
+    /*display: inline-block;*/
+
+}
+
+.sec{
+	display: none;
+}
+
+/*#causeway-text span {
+	display: inline-block;
+}*/
+
+.symbol {
+	font-size: 2.0em;
+}
+
+small {
+	font-size: 0.5em;
+}
+
+/*.phrase:hover{
+	animation-name: zoomOutUp;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+}*/
+
+@-webkit-keyframes zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+    transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+
+@keyframes zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+    transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+
+.zoomOutUp {
+  -webkit-animation-name: zoomOutUp;
+  animation-name: zoomOutUp;
+}
+
+.clicked{
+	-webkit-animation-name: zoomOutUp;
+	animation-name: zoomOutUp;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+/*	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;*/
+}

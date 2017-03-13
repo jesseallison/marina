@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.buttons{
+  position: fixed;
+  top: 2px;
+}
+
+.buttons button{
+  font-size: 15px;
+}
+
+.stuff {
+  margin-top: 30px;
+  display: inline-block;
+  width: 46%;
+  padding: 1%;
+  height: 600px;
+  overflow: auto;
+  float:left;
+  border: 1px solid red;
+}
+
+.generatedText {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.5em;
+  height: 500px;
+
+}
+
+.scoreText{
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  white-space: pre;
+
+}
+
+.gentextbuttons{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+.gentextbuttons button{
+  font-size: 2.5em;
+}
