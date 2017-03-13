@@ -36,7 +36,7 @@ A time will come.</p>
 var socket = io.connect(window.location.origin , {transports:['websocket']} );
 
 var myColor = getRandomColor();
-
+var audioStarted = false;
 var itemMisses = 0;
 
 function getRandomColor() {
@@ -62,6 +62,10 @@ function actOnText() {
 }
 
 $('#poem').click(function (e) {
+	if(!audioStarted) {
+		Tone.startMobile();
+		audioStarted = true;
+	}
 	target = event.target || event.srcElement;
 
 	if (target.nodeName.toLowerCase() === "span") {

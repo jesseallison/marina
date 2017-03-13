@@ -1,5 +1,5 @@
 html{
-    background: url("floral_pattern.png") no-repeat center fixed; 
+    background: url("floral_pattern.png") repeat center fixed; 
     background-size: cover;
     -webkit-animation-name: change; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
