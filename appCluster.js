@@ -191,7 +191,7 @@ if(cluster.isMaster) {
 				console.log("*** Generated Text ***", generatedText);
 						// Save generated sentances into redis.
 				if(generatedText){
-					redisClient.lpush("markov", generatedText);
+					redisClient.lpush("markov", generatedMarinaText);
 							// Send generated sentances to EVERYONE  FIXME: Should this only be a few people?
 					socket.emit('itemback', {phrase: generatedText});
 				}
